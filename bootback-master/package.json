@@ -1,0 +1,21 @@
+{
+  "name": "crud",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dateformat": "^3.0.3",
+    "knex": "^0.19.5",
+    "mssql": "^5.1.0",
+    "mysql": "^2.15.0",
+    "nodemon": "^1.19.3",
+    "restify": "^8.5.0",
+    "restify-errors": "^5.0.0",
+    "restify-router": "^0.5.1"
+  }
+}
