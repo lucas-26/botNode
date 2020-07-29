@@ -1,7 +1,7 @@
 let dateFormat = require('dateformat');
 let errs = require('restify-errors');
-let config = require('../knex_config')
-let knex = require('knex')(config)
+let config = require('../knex_config');
+let knex = require('knex')(config);
 
 class Exam{
     async returnInfExam(id){
